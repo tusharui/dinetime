@@ -7,10 +7,9 @@ const Testing = () => {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "black", // optional
       }}
     >
-      <Text style={{ color: "white", fontWeight: "bold", fontSize: 20 }}>
+      <Text style={{ color: "red", fontWeight: "bold", fontSize: 20 }}>
         Hello
       </Text>
     </View>

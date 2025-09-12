@@ -10,15 +10,13 @@ export default function Index() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "black", // ✅ use a valid color
       }}
     >
       <Text style={{ color: "red" }}>
         Edit app/index.tsx to edit this screen.
       </Text>
 
-      <TouchableOpacity
-        onPress={() => router.push("/testing")}
+      <TouchableOpacity onPress={() => router.push("/home")}
         style={{
           marginTop: 20,
           padding: 10,
